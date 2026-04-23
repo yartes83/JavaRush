@@ -1,1 +1,29 @@
-/туц.txt
+# Логи
+logs/*
+*.log
+
+# Папки, що створюються WebStorm
+.idea/
+*.iml
+
+# Тимчасові файли
+*.tmp
+*.swp
+*~
+
+# Файли, що створюються при збірці проекту
+dist/
+build/
+
+# Залежності
+node_modules/
+bower_components/
+
+# Файли конфігурації
+.eslintrc.js
+.prettierrc.js
+
+# Тестові дані
+coverage/
+cypress/screenshots/
+cypress/videos//туц.txt
